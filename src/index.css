@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-body: "Josefin Sans", "sans-serif";
+    --font-code: "Roboto", "monospace";
+
+    /* --color-*: initial; */
+    --color-brown: #402d28;
+    --color-lighterBrown: #645550;
+    --color-lightBrown: #6d504a;
+    --color-darkBrown: #2c2523;
+    --color-black: #1e1917;
+    --color-darkBlack: #000000;
+    --color-white: #f1e1d9;
+    --color-lightWhite: #FFFFFF;
+    --color-cyan: #15d1e9;
+    --color-lighterCyan: #88e5f0;
+    --color-lightCyan: #03808f;
+    --color-darkCyan: #009fb3;
+    --color-orange: #fb9718;
+    --color-lightOrange: #fac27b;
+    --color-darkOrange: #d28422;
+    --color-grey: #626965;
+    --color-lightGrey: #d1d4d2;
+    --color-darkGrey: #3f4441;
+
+    --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+    --shadow-cyanBigShadow: 10px 10px 1000px 500px rgba(94, 206, 220, 0.3);
+    --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+    --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
+    --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+    --shadow-orangeShadow: 00px 0px 20px 5px rgba(240, 169, 79, 0.5);
+
+    --breakpoint-sm: 330px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+body {
+    @apply bg-brown;
+}
