@@ -11,7 +11,7 @@ const ExperienceTopRight = () => {
         <h3 className="lg:hidden sm:block md:text-2xl sm:text-xl font-semibold text-orange mb-2">
           Zidio Development
         </h3>
-        <span className="italic text-base">March 2025 - Present</span>
+        <span className="italic text-base">March 2025 - June 2025</span>
       </div>
       <ul className="list-disc pl-5 space-y-4 mt-3 md:text-lg sm:text-base">
         <li>
