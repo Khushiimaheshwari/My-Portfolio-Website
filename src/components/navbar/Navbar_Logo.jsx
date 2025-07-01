@@ -9,9 +9,11 @@ function Navbar_Logo() {
           Khushi Maheshwari
         </h1>
       </Link>
-      <h1 className="text-white font-extrabold lg:text-4xl sm:text-3xl md:hidden sm:block hover:scale-110 duration-500">
-        KM
-      </h1>
+     <Link to="KM" smooth={true} spy={true} duration={500} offset={-130}>
+        <h1 className="text-white font-extrabold lg:text-4xl sm:text-3xl md:hidden sm:block hover:scale-110 duration-500">
+          KM
+        </h1>
+      </Link>
     </div>
   );
 }
