@@ -2,10 +2,11 @@ import { FaHtml5 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
+// import { SiNextdotjs } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../FramerMotion/varients";
 import SingleSkill from "./SingleSkill";
@@ -28,10 +29,6 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
     skill: "NodeJS",
     icon: FaNode,
   },
@@ -42,6 +39,10 @@ const skills = [
   {
     skill: "MongoDB",
     icon: SiMongodb,
+  },
+  { 
+    skill: "Java",
+    icon: FaJava,
   },
 ];
 
